@@ -276,6 +276,10 @@ min-width: 768px {
   }
 }
 
+.logo-mark {
+  color: #0b3d91 !important;
+}
+
 /* Стили для логотипа */
 .logo {
   text-decoration: none;
