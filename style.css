@@ -381,3 +381,15 @@ min-width: 768px {
     background: transparent !important;
   }
 }
+/* Стили для логотипа */
+.logo {
+  text-decoration: none; /* убираем подчёркивание */
+  color: #0b3d91 !important; /* тёмно-синий цвет текста */
+  font-weight: 500; /* делаем шрифт чуть жирнее, как на фото */
+}
+
+/* Чтобы при наведении курсора он тоже не подчеркивался и цвет не менялся */
+.logo:hover {
+  text-decoration: none;
+  color: #0b3d91 !important;
+}
