@@ -29,8 +29,9 @@ body {
   background: #fff;
   border-bottom: 1px solid #e6e2dc;
   position: sticky;
-  top: 0;
-  padding-top: 12px; /* добавь эту строку */
+  top: 12px; /* отступ от верхнего края */
+  z-index: 10;
+  padding-top: 8px; /* внутренний отступ сверху для текста */
 }
 
 .header-inner {
