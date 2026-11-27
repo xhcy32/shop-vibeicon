@@ -30,7 +30,7 @@ body {
   border-bottom: 1px solid #e6e2dc;
   position: sticky;
   top: 0;
-  z-index: 10;
+  padding-top: 12px; /* добавь эту строку */
 }
 
 .header-inner {
@@ -96,7 +96,7 @@ body {
 /* ===== Сетка разделов на главной ===== */
 .sections-grid {
   display: grid;
-  grid-template-columns: repeat(3, max-content); /* ширина по содержимому */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   justify-content: center; /* вся сетка по центру страницы */
   margin: 56px 0;
