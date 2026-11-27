@@ -55,6 +55,17 @@
       © 2026 VibeIcon · Одежда для жизни
     </div>
   </footer>
+<script>
+  const burger = document.querySelector('.burger-btn');
+  const menu = document.querySelector('.mobile-menu');
+
+  if (burger && menu) {
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('active');
+      menu.classList.toggle('open');
+    });
+  }
+</script>
 
 </body>
 </html>
